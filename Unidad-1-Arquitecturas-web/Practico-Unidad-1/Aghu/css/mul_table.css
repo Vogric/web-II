@@ -1,0 +1,31 @@
+﻿@charset "UTF-8";
+
+table {
+  border-collapse: collapse;
+}
+td, th  {
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;  
+  min-width: 28px;
+}
+
+td  {
+  border: 1px solid black;
+}
+
+th, .first-col, .square-value  { 
+  background-color: #F0F080;  
+  font-weight: bold;
+}
+th, .first-col {
+  border: 0;
+  min-width: unset;
+}
+
+.left-upper-cell {
+  background: none;
+}
