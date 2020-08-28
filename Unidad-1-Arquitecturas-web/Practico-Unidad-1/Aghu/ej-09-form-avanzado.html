@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ej 9 Formularios con elementos avanzados - Práctico 1 PHP, Web 2, 2020, TUDAI</title>
+</head>
+
+<body>
+  <h1>Práctico 1 PHP, Web 2, 2020, TUDAI</h1>
+  <h2>Ej 9 Formularios con elementos avanzados</h2>
+  <form method="POST" action="ej-09-form-avanzado.php">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre"/><br />
+    <label for="apellido">Apellido:</label>
+    <input type="text" name="apellido" id="apellido"/><br />
+    <label for="edad">Edad:</label>
+    <input type="number" name="edad" id="edad"/> <br />
+    <br />
+    <label>Género:</label><br />
+    <input type="radio" name="genero" value="femenino" id="op-femenino"/>
+    <label for="op-femenino">Femenino</label><br />
+    <input type="radio" name="genero" value="masculino" id="op-masculino"/>
+    <label for="op-masculino">Masculino</label><br />
+    <input type="radio" name="genero" value="no binario" id="op-no-binario"/>
+    <label for="op-no-binario">No binario</label><br />    <br />
+    <label for="pais">País:</label>
+    <select name="pais" id="pais">
+      <option value="Argentina">Argentina</option>
+      <option value="Brasil">Brasil</option>
+      <option value="Chile">Chile</option>
+    </select>
+    <br /><br />
+    <label>Intereses:</label><br />
+    <input type="checkbox" name="intereses[]" value="musica" id="interes1"/>
+    <label for="interes1">Música</label><br />
+    <input type="checkbox" name="intereses[]" value="futbol" id="interes2"/>
+    <label for="interes2">Fútbol</label><br />
+    <input type="checkbox" name="intereses[]" value="tecnologia" id="interes3"/>
+    <label for="interes3">Tecnología</label><br /><br />
+    <button type="submit">Enviar</button><br />
+  </form>
+</body>
+
+</html>
