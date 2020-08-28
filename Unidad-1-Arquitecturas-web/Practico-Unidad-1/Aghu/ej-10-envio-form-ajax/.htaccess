@@ -1,0 +1,5 @@
+# Expire ya estaría activo
+# https://sourceforge.net/p/forge/site-support/20490/
+# http://httpd.apache.org/docs/2.2/mod/mod_expires.html#ExpiresByType
+ExpiresDefault "modified plus 0 seconds"
+ExpiresByType application/javascript "modified plus 0 seconds"
