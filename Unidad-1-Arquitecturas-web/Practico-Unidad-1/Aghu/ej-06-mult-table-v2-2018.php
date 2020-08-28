@@ -9,7 +9,7 @@ $MAX_COLS = $MAX;
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="css/mul_table.css" />
-  <title>Practico 1, versión 2, Ejercicio 3, de Web2, 2020, Unicen</title>
+  <title>Practico 1, versión 2, Ejercicio 6, de Web2, 2020, TUDAI, Unicen</title>
 </head>
 
 <body>
