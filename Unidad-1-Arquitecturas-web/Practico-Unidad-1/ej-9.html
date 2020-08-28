@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ej9</title>
+  </head>
+  <body>
+    <form method="POST" action="ej-9.php">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" /><br /><br />
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido" /><br /><br />
+      <label for="edad">Edad:</label>
+      <input type="number" name="edad" /> <br /><br /><br />
+      <label for="genero">Genero</label>
+      <input type="radio" name="genero" id="genero" value="x" /><br /><br />
+      <select name="pais" id="pais">
+        <option value="Argentina">Argentina</option></select
+      ><br /><br />
+      <input
+        type="checkbox"
+        name="intereses[]"
+        id="interes1"
+        value="interes1"
+      />
+      <label for="interes1">interes1</label><br />
+      <input
+        type="checkbox"
+        name="intereses[]"
+        id="interes2"
+        value="interes2"
+      />
+      <label for="interes2">interes2</label><br />
+      <input
+        type="checkbox"
+        name="intereses[]"
+        id="interes3"
+        value="interes3"
+      />
+      <label for="interes3">interes3</label><br /><br /><br />
+      <button type="submit">Enviar</button><br />
+    </form>
+  </body>
+</html>

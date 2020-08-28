@@ -1,6 +1,6 @@
 <?php
 
-if ( isset( $_GET['nombre'] ) && isset( $_GET['apellido'] ) && $_GET['edad'] && $_GET['nombre'] != "" && $_GET['apellido'] != "" && $_GET['edad'] != "" ) {
+if ( isset( $_GET['nombre'] ) && isset( $_GET['apellido'] ) && isset( $_GET['edad'] ) && $_GET['nombre'] != "" && $_GET['apellido'] != "" && $_GET['edad'] != "" ) {
 
     $nombre = $_GET['nombre'];
     $apellido = $_GET['apellido'];
