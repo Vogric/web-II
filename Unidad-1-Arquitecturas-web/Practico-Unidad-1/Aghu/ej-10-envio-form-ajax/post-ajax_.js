@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const data = new URLSearchParams(new FormData(this));
 
-        div_server_response.innerHTML="<h2>Enviando al servidor</h2>";
+        div_server_response.innerHTML="<h2>Enviando al servidor...</h2>";
 
         fetch(SERVER_URL, {
             method: 'post',
