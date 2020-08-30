@@ -1,18 +1,13 @@
 <?php
 
-if ( isset( $_POST['nombre'] ) && isset( $_POST['apellido'] ) && $_POST['edad'] && $_POST['nombre'] != "" && $_POST['apellido'] != "" && $_POST['edad'] != "" ) {
+$name = $_POST['name'];
+$surname = $_POST['surname'];
+$age = $_POST['age'];
 
-    $nombre = $_POST['nombre'];
-    $apellido = $_POST['apellido'];
-    $edad = $_POST['edad'];
-    echo ( "Nombre: $nombre" );
-    echo ( "Apellido: $apellido" );
-    echo ( "Edad: $edad" );
+if ( !empty( $_POST['name'] ) && !empty( $_POST['surname'] ) && !empty( $_POST['age'] ) ) {
+
+    echo ( "Name: $name <br> Surname: $surname <br> Age: $age" );
 
 } else {
-    echo ( "Todos los campos deben estar completados" );
+    echo ( "All fields must be complete" );
 }
-
-?>
-
-<a href="ej-3.html">Inicio</a>
