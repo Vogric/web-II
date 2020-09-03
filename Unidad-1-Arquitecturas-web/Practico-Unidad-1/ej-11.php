@@ -3,17 +3,25 @@
 
 
 <?php
+
+$arreglo = array();
+define( "MAX", "150" );
+
+for ( $i = 0; $i < MAX; $i++ ) {
+    $arreglo[$i] = $i;
+}
+
 echo ( '<ul>' );
 if ( isset( $_POST['cantidad'] ) ) {
     $cantidad = $_POST['cantidad'];
 } else {
-    $cantidad = 150;
+    $cantidad = MAX;
 }
 if ( $cantidad == "all" ) {
-    $cantidad = 150;
+    $cantidad = MAX;
 }
-for ( $i = 1; $i <= $cantidad; $i++ ) {
-    $cadena = ( "<li> Item $i </li>" );
+for ( $i = 0; $i < $cantidad; $i++ ) {
+    $cadena = ( "<li> Item $arreglo[$i] </li>" );
     echo ( $cadena );
 }
 echo ( '</ul>' );
