@@ -1,0 +1,5 @@
+Base de datos ->
+«a definirse»
+
+Tabla ->
+MATERIA(id: int, nombre: string; profesor: string;)
