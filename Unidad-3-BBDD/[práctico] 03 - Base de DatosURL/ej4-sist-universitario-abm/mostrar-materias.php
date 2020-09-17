@@ -14,7 +14,7 @@ $salida .= '<tr><th>id</th><th>nombre</th><th>profesor</th></tr>';
 
 $_MAX_ROWS=6; // Esto lo tomará del fetch
 for ( $row = 1; $row <= $MAX_ROWS; $row++ ) {
-    $salida .= '<tr>'
+    $salida .= '<tr>';
 
     // Soĺo muestro números por ahora
     $salida .= "<td>id $row</td>";
